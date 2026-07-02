@@ -7,13 +7,25 @@
 </head>
 <body>
     <form>
+        <input list="cars">
+
+        <datalist id="cars">
+            <option value="BMW">
+            <option value="Audi">
+            <option value="VW">
+            <option value="Toyota">
+        </datalist>
+    </form>
+
+    <hr>
+    <form>
         <label for="uname">Enter Name:</label>
-        <input type="text" id="uname" placeholder="Enter Name">
+        <input type="text" id="uname" placeholder="Enter Name" required value="Rahul" maxlength="10" autofocus>
 
         <br><br>
 
         <label for="uemail">Enter Email:</label>
-        <input type="email" id="uemail">
+        <input type="email" id="uemail" readonly disabled>
 
         <br><br>
 
@@ -29,6 +41,10 @@
 
         <label for="upw">Enter Password</label>
         <input type="password" name="" id="upw">
+
+        <br><br>
+
+        <input type="file" multiple>
 
         <br><br>
 
@@ -56,6 +72,32 @@
 
         <input type="submit">
     </form>
+
+    <hr>
+
+    <form>
+
+        <fieldset>
+            <legend>Personal details</legend>
+            <label for="uname">Enter name</label>
+            <input type="text" id="unmae">
+
+            <br><br>
+
+            <label for="uemail">Enter email</label>
+            <input type="email" id="uemail">
+
+            <br><br>
+
+            <input type="submit">
+        </fieldset>
+
+    </form>
+
+
+    <hr>
+
+    
 
 </body>
 </html>
