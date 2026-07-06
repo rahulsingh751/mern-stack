@@ -1,0 +1,21 @@
+body {
+    /* border: 1px solid; */
+
+    height: 350px;
+    /* background-color: blue; */
+    background-image: url('cutecat.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: bottom right;
+}
+
+.para {
+    font-family: sans-serif;
+    color: red;
+    /* background-color: blueviolet; */
+    text-align: justify;
+    text-decoration: underline dashed;
+    line-height: 2;
+    letter-spacing: 3px;
+    word-spacing: 20px;
+}

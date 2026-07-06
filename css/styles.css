@@ -1,8 +1,22 @@
-p {
-    color: crimson;
-    word-spacing: 5px;
+* {
+    color: brown;
+    border: 3px solid blue;
+}
+
+.mypara {
+    color: blue;
+    line-height: 1.5;
+    /* border: 2px solid red; */
+}
+
+#p1 {
+    color: red;
 }
 
 p {
-    color: aqua;
+    color: yellow;
+    word-spacing: 5px;
 }
+
+
+
