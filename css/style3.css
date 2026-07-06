@@ -1,0 +1,50 @@
+/* color, borders, fonts, links */
+
+/* 
+- color name
+- rgb() - red, green, blue - (0-255)
+- rgba() - red, green, blue - (0-255) + alpha (transaparent 0-1)
+- hex (six digit hexadecimal value) - #rrggbb  [0-9, A-F]
+- hsl (hue, saturation, lightness) - hue(0-360), saturation(0-100%), lightness(0-100%)
+- hsla (hue, saturation, lightness) - hue(0-360), saturation(0-100%), lightness(0-100%) + alpha
+*/
+
+body {
+    font-family: "Inter", sans-serif;
+
+    /* border: 2px solid black; */
+}
+
+.heading {
+    /* color: purple; */
+    /* color: rgb(55, 234, 204); */
+    /* color: rgba(55, 234, 204, 0.4); */
+    color: #fa4b3c; /* #ff44aa -> #f4a */
+    /* color: hsl(270, 75%, 50%); */
+    color: hsla(270, 75%, 50%, 0.75);
+
+    font-family: "Yuyu", sans-serif;
+}
+
+/* borders - (width, style, color) */
+
+.heading {
+    border-width: 5px 7px 10px 12px;
+    border-style: double dotted;
+    border-color: #f0a #ff0;
+
+    /* border: 7px double #fa4b3c; */
+
+    /* border-top-color: #0ff;
+    border-top-width: 15px;
+    border-top-style: solid; */
+
+    border-radius: 50px;
+
+    /* border-bottom-right-radius: 30px; */
+
+    padding: 20px 10px 30px 40px;
+    margin: 20px 10px 30px 40px;
+    
+}
+
