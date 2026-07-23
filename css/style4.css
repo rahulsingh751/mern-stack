@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-1 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    padding: 15px 25px;
+    border: 5px solid #000;
+}
+
+.container-2 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin-left: 140px;
+}
+
+.container-3 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin-left: 240px;
+}
+
+
+p {
+    border: 5px solid red;
+    padding: 20px;
+    margin: 20px;
+}
+
+a:link, a:visited {
+    display: inline-block;
+    border: 20px solid red;
+    margin: 20px;
+    padding: 20px;
+}

@@ -11,6 +11,7 @@
 
 body {
     font-family: "Inter", sans-serif;
+    border: 2px solid red;
 
     /* border: 2px solid black; */
 }
@@ -48,3 +49,41 @@ body {
     
 }
 
+h1, p {
+    text-decoration: underline wavy firebrick;
+}
+
+div p {
+    color: red;
+}
+
+/* styling link */
+/* Order: LVHA */
+
+/* a:link {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: chocolate;
+}
+
+a:hover {
+    color: #f0a;
+}
+
+a:active {
+    color: firebrick;
+} */
+
+a:link, a:visited {
+    color: #f0a;
+    text-decoration: none;
+    text-shadow: 5px 5px 10px #000;
+}
+
+a:hover, a:active {
+    color: darkcyan;
+    text-decoration: underline wavy #000;
+}
