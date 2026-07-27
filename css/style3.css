@@ -20,7 +20,7 @@ body {
     /* color: purple; */
     /* color: rgb(55, 234, 204); */
     /* color: rgba(55, 234, 204, 0.4); */
-    color: #fa4b3c; /* #ff44aa -> #f4a */
+    color: #fa4b3c!important; /* #ff44aa -> #f4a */
     /* color: hsl(270, 75%, 50%); */
     color: hsla(270, 75%, 50%, 0.75);
 
